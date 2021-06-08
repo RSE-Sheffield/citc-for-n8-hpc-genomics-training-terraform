@@ -41,9 +41,9 @@ variable "profile" {
 }
 
 variable "ansible_repo" {
-  default = "https://github.com/clusterinthecloud/ansible.git"
+  default = "https://github.com/willfurnass/ansible.git"
 }
 
 variable "ansible_branch" {
-  default = "6"
+  default = "fix-django-superuser-creation"
 }
