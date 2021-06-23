@@ -41,9 +41,9 @@ variable "profile" {
 }
 
 variable "ansible_repo" {
-  default = "https://github.com/willfurnass/ansible.git"
+  default = "https://github.com/RSE-Sheffield/citc-for-n8-hpc-genomics-training-ansible.git"
 }
 
 variable "ansible_branch" {
-  default = "fix-django-superuser-creation"
+  default = "tuos-ephemeron"
 }
