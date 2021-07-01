@@ -16,7 +16,7 @@ variable "efs_encrypted" {
 }
 
 variable "management_shape" {
-  default = "t3a.medium"
+  default = "t3.medium"
 }
 
 variable "public_key_path" {
